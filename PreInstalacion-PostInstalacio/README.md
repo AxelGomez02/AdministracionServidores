@@ -8,6 +8,7 @@
 - [ ] Preconfigurar el archivo booteable en la memorias USB, en este caso se toma en cuenta que ya hemos descargado el Iso previamente
 - [ ] Ajustar el equipo para el arranque en caso de ser neceario
 - [ ] En caso de ser necesario Particionar el Disco en el formato deseado
+- [ ] Verificar y ver que queremos en nuestro sistema, programas, entornos graficos ETC
        
 | MBR    |  GPT   |
 | :---   | :---   |
@@ -26,3 +27,21 @@ En el cual yo elegi las sigiuientes
 |40 GB | EXT4 | / |
 | 16GB | swap | swap|
 | 40 GB | EXT4 | /home | 
+| 22 GB | EXT4 | /usr |
+| 20 GB | EXT4 | /var |
+| 10 GB | EXT4 | /tmp |
+| 10 GB | EXT4 | /srv |
+| 10 GB | EXT4 | /boot |
+| 15 GB | EXT4 | /opt | 
+
+- [ ] proceguir con los pasos guiados
+- [ ] Poner Nombre a la maquina 
+- [ ] Definir  la contraseña root
+- [ ] Definir Los nombre/s de usuario y contraseñas
+- [ ] Proceguir con la instalacion
+
+# Post Instalacion
+
+aqui verificamos que todo se haya instalado sin complicaciones, verificar los usuarios y credenciales , descargar y hacer la configuraciones necesarias 
+
+En mi caso yo solo cheque las credenciales y descargue programas para la utulizacion del sistema operativo debian 
