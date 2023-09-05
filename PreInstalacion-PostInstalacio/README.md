@@ -42,6 +42,8 @@ En el cual yo elegi las sigiuientes
 
 # Post Instalacion
 
-aqui verificamos que todo se haya instalado sin complicaciones, verificar los usuarios y credenciales , descargar y hacer la configuraciones necesarias 
+- [ ] Verificar que la instalacion este sin errores
+- [ ] En caso de tener entorno grafico que este cargue
+- [ ] verificar que se pueda acceder a debian con los usuarios y credenciales previamente definidos durante la instalacion
+- [ ] descargar programas y funciones que vayamos a utilizar  
 
-En mi caso yo solo cheque las credenciales y descargue programas para la utulizacion del sistema operativo debian 
