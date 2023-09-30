@@ -19,3 +19,7 @@ Aqui como se puede ver, lo que se hizo con el set defaul es decirle a systemD qu
 
 ![Image Target](https://github.com/AxelGomez02/AdministracionServidores/blob/main/retos/imagenes/Captura%20desde%202023-09-24%2015-26-06.png)
 
+Aqui lo unico que hice fue dejar por defecto el graphical.target
+
+# Reto 1
+### servidor web apache personalizado 
