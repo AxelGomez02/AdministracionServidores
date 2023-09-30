@@ -86,3 +86,12 @@ Parando el servicio A
 ![66](https://github.com/AxelGomez02/AdministracionServidores/blob/main/retos/imagenes/Captura%20desde%202023-09-30%2000-44-35.png)
 Se para la dependencia B
 ![345678](https://github.com/AxelGomez02/AdministracionServidores/blob/main/retos/imagenes/Captura%20desde%202023-09-30%2000-45-03.png)
+
+# Reto 4
+En este reto lo unico que se hizo es aprovechar el scrip que ya tenemos para el bucle infinito en el cual limitamos con SystemD el uso del cpu y el uso de la memoria RAM aunque tambien la memoria swap pero esa no lo agregamos, el cpu es una cuota del 10% mientras que de la memoria se le dejo 100 Megas lo cual en la ejecucion de la memoria no gasta mucho por lo que no se para 
+
+![86](https://github.com/AxelGomez02/AdministracionServidores/blob/main/retos/imagenes/Captura%20desde%202023-09-30%2002-00-27.png)
+
+![3344](https://github.com/AxelGomez02/AdministracionServidores/blob/main/retos/imagenes/Captura%20desde%202023-09-30%2001-56-47.png)
+
+# Reto 5 
