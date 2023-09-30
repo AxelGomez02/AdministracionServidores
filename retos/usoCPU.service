@@ -1,0 +1,13 @@
+#!/bin/bash
+
+[Unit]
+Description=Servicio para la actividad 4 
+
+[Service]
+ExecStart=/home/axelgomez/Documentos/Scrpts/escrituras.sh
+Restart=always
+CPUQuota=10%
+MemoryMax=100M
+
+[Install]
+WantedBy=multi-user.target

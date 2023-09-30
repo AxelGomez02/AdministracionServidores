@@ -1,0 +1,12 @@
+[Unit]
+Description= Este es el servicio A
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/home/axelgomez/Documentos/Scrpts/escrituras.sh
+Restart=always
+RestartSec=0
+
+[Install]
+WantedBy=multi-user.target

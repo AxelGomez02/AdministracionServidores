@@ -1,0 +1,10 @@
+[Unit]
+Description=Este es el servicio B
+Requires=servicioA.service
+After=servicioA.service
+
+[Service]
+ExecStart=/home/axelgomez/Documentos/Scrpts/sev.sh
+
+[Install]
+WantedBy=multi-user.target
