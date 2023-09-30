@@ -61,4 +61,28 @@ Aqui lo que podemos ver es que al inicio me fallo tenia que configurar algo pero
 ![331](https://github.com/AxelGomez02/AdministracionServidores/blob/main/retos/imagenes/Captura%20desde%202023-09-30%2000-25-15.png)
 
 aqui podemos ver que sirve el servicio, dice dead por que segun mis conocimientos el timer es el que activa el servicio cada ver que se active escribe en el documento y se vuelve a apagar, por eso sale dead pero no failed
+![312312](https://github.com/AxelGomez02/AdministracionServidores/blob/main/retos/imagenes/Captura%20desde%202023-09-27%2023-20-24.png)
 
+Ya no pongo el codigo y asi del timer pero dejo la evidencia de que cada 5 minutos se ejecuta y escribe esto 
+
+# Reto 3 
+Comenzamos creando el servicio A 
+
+![57888](https://github.com/AxelGomez02/AdministracionServidores/blob/main/retos/imagenes/Captura%20desde%202023-09-30%2000-31-47.png)
+
+Este es el servicio B 
+
+![038y33](https://github.com/AxelGomez02/AdministracionServidores/blob/main/retos/imagenes/Captura%20desde%202023-09-30%2000-33-46.png)
+
+Ambos tienen un script a ejecutar se llaman diferente pero hacen lo mismo un bucle infinito, con este bucle lo usaremos despues en otro momento para lo del CPU 
+
+Comprobamos que esten corriendo los servicios, cabe destaracr que cuando corri el servicio b sin el a marcaba error 
+
+![2](https://github.com/AxelGomez02/AdministracionServidores/blob/main/retos/imagenes/Captura%20desde%202023-09-30%2000-36-27.png)
+
+![3](https://github.com/AxelGomez02/AdministracionServidores/blob/main/retos/imagenes/Captura%20desde%202023-09-30%2000-38-50.png)
+
+Parando el servicio A 
+![66](https://github.com/AxelGomez02/AdministracionServidores/blob/main/retos/imagenes/Captura%20desde%202023-09-30%2000-44-35.png)
+Se para la dependencia B
+![345678](https://github.com/AxelGomez02/AdministracionServidores/blob/main/retos/imagenes/Captura%20desde%202023-09-30%2000-45-03.png)
