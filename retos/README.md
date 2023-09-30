@@ -89,9 +89,26 @@ Se para la dependencia B
 
 # Reto 4
 En este reto lo unico que se hizo es aprovechar el scrip que ya tenemos para el bucle infinito en el cual limitamos con SystemD el uso del cpu y el uso de la memoria RAM aunque tambien la memoria swap pero esa no lo agregamos, el cpu es una cuota del 10% mientras que de la memoria se le dejo 100 Megas lo cual en la ejecucion de la memoria no gasta mucho por lo que no se para 
-
+https://github.com/AxelGomez02/AdministracionServidores/blob/main/retos/imagenes/Captura%20desde%202023-09-30%2003-14-14.png
 ![86](https://github.com/AxelGomez02/AdministracionServidores/blob/main/retos/imagenes/Captura%20desde%202023-09-30%2002-00-27.png)
 
 ![3344](https://github.com/AxelGomez02/AdministracionServidores/blob/main/retos/imagenes/Captura%20desde%202023-09-30%2001-56-47.png)
 
 # Reto 5 
+Dentro de las correcciones quedarian asi los scrips 
+
+![1](https://github.com/AxelGomez02/AdministracionServidores/blob/main/retos/imagenes/Captura%20desde%202023-09-30%2003-14-14.png)
+
+![2](https://github.com/AxelGomez02/AdministracionServidores/blob/main/retos/imagenes/Captura%20desde%202023-09-30%2003-12-05.png)
+
+![3](https://github.com/AxelGomez02/AdministracionServidores/blob/main/retos/imagenes/Captura%20desde%202023-09-30%2002-58-10.png)
+
+Este de aqui es como quedo el codigo corregido pedi ayuda al chat gpt por que no sabia que no lo detectaba pero era por el path ya despues lo pondre ahi por que tengo que investigar bien como lo pondre 
+
+![4](https://github.com/AxelGomez02/AdministracionServidores/blob/main/retos/imagenes/Captura%20desde%202023-09-30%2003-12-34.png)
+
+Este de aqui es el mensaje que se envia el cual tambien se manda al log que esta en la direccion 
+
+![5](https://github.com/AxelGomez02/AdministracionServidores/blob/main/retos/imagenes/Captura%20desde%202023-09-30%2003-13-04.png)
+
+
