@@ -43,3 +43,22 @@ Para el primer servicio apache quedo asi!!! aunque no pude acceder desde el nave
 ![43768](https://github.com/AxelGomez02/AdministracionServidores/blob/main/retos/imagenes/Captura%20desde%202023-09-24%2012-44-55.png)
 
 # Reto 2
+Para este reto lo que teniamos que hacer era sencillo ese no me costo mucho 
+
+![4454](https://github.com/AxelGomez02/AdministracionServidores/blob/main/retos/imagenes/Captura%20desde%202023-09-27%2020-30-21.png)
+
+lo que hace el scrip es sencillo, en 2 variables guarda la fecha y la hora donde en el if se verifica que en log exista el archivo, si no existe lo crea, si existe entonces guarda la direccion completa del archivo y este lo guarda, despues las variables se mandan al archivo y ahi se escriben, de hecho la escritura se puede hacer desde que sea verdadera la condicion. 
+![98894](https://github.com/AxelGomez02/AdministracionServidores/blob/main/retos/imagenes/Captura%20desde%202023-09-27%2020-33-51.png)
+Aqui solo estamos probando que se escriba la fecha en el documento 
+
+![17151](https://github.com/AxelGomez02/AdministracionServidores/blob/main/retos/imagenes/Captura%20desde%202023-09-27%2022-53-34.png)
+
+Aqui estamos iniciando el servicio
+![3566787](https://github.com/AxelGomez02/AdministracionServidores/blob/main/retos/imagenes/Captura%20desde%202023-09-27%2022-57-40.png)
+
+Aqui lo que podemos ver es que al inicio me fallo tenia que configurar algo pero despues si se pudo linkear 
+
+![331](https://github.com/AxelGomez02/AdministracionServidores/blob/main/retos/imagenes/Captura%20desde%202023-09-30%2000-25-15.png)
+
+aqui podemos ver que sirve el servicio, dice dead por que segun mis conocimientos el timer es el que activa el servicio cada ver que se active escribe en el documento y se vuelve a apagar, por eso sale dead pero no failed
+
